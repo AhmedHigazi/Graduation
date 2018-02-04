@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="Mater_Pan" layoutX="1.0" prefHeight="705.0" prefWidth="1370.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graduation_p1.Materials_PaneController">
+   <children>
+      <Label layoutX="82.0" layoutY="26.0" prefHeight="17.0" prefWidth="214.0" text="Alkali metals" />
+      <Button fx:id="btn_back" layoutX="625.0" layoutY="649.0" mnemonicParsing="false" onAction="#Work_Station_One_Call" prefHeight="20.0" prefWidth="80.0" text="Done" />
+      <Button fx:id="btn_H" layoutX="48.0" layoutY="204.0" mnemonicParsing="false" onAction="#add_H" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: DODGERBLUE;" text="H" />
+      <Button layoutX="48.0" layoutY="232.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: DODGERBLUE;" text="Li" />
+      <Button layoutX="48.0" layoutY="260.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: DODGERBLUE;" text="Na" />
+      <Button layoutX="48.0" layoutY="288.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: DODGERBLUE;" text="K" />
+      <Button layoutX="48.0" layoutY="317.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: DODGERBLUE;" text="Rb" />
+      <Button layoutX="48.0" layoutY="373.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: DODGERBLUE;" text="Fr" />
+      <Button layoutX="48.0" layoutY="346.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: DODGERBLUE;" text="Cs" />
+      <Button fx:id="btn_Be" layoutX="151.0" layoutY="232.0" mnemonicParsing="false" onAction="#add_Be" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: green;" text="Be" />
+      <Button layoutX="151.0" layoutY="260.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: green;" text="Mg" />
+      <Button layoutX="151.0" layoutY="288.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: green;" text="Ca" />
+      <Button layoutX="151.0" layoutY="317.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: green;" text="Sr" />
+      <Button layoutX="151.0" layoutY="373.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: green;" text="Ra" />
+      <Button layoutX="151.0" layoutY="346.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: green;" text="Ba" />
+      <Button fx:id="btn_Sc" layoutX="251.0" layoutY="289.0" mnemonicParsing="false" onAction="#add_Sc" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Sc" />
+      <Button layoutX="251.0" layoutY="318.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Y" />
+      <Button layoutX="251.0" layoutY="374.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Ac" />
+      <Button layoutX="251.0" layoutY="347.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="La" />
+      <Button layoutX="350.0" layoutY="290.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Ti" />
+      <Button layoutX="350.0" layoutY="319.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Zr" />
+      <Button layoutX="350.0" layoutY="375.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Rf" />
+      <Button layoutX="350.0" layoutY="348.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Hf" />
+      <Button layoutX="447.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="V" />
+      <Button layoutX="447.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Nb" />
+      <Button layoutX="447.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Ha" />
+      <Button layoutX="447.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Ta" />
+      <Button layoutX="545.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Cr" />
+      <Button layoutX="545.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Mo" />
+      <Button layoutX="545.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Sg" />
+      <Button layoutX="545.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="W" />
+      <Button layoutX="642.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Mn" />
+      <Button layoutX="642.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Tc" />
+      <Button layoutX="642.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Bh" />
+      <Button layoutX="642.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Re" />
+      <Button layoutX="740.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Fe" />
+      <Button layoutX="740.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Ru" />
+      <Button layoutX="740.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Hs" />
+      <Button layoutX="740.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Os" />
+      <Button layoutX="838.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Co" />
+      <Button layoutX="838.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Rh" />
+      <Button layoutX="838.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Mt" />
+      <Button layoutX="838.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #e6e600;" text="Ir" />
+      <Button layoutX="935.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="Ga" />
+      <Button layoutX="935.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="In" />
+      <Button layoutX="935.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="(113)" />
+      <Button layoutX="935.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="Ti" />
+      <Button layoutX="1033.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="Ge" />
+      <Button layoutX="1033.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="Sn" />
+      <Button layoutX="1033.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="(114)" />
+      <Button layoutX="1033.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="Pb" />
+      <Button layoutX="1131.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #00e6e6;" text="As" />
+      <Button layoutX="1131.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="Sb" />
+      <Button layoutX="1131.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="(115)" />
+      <Button layoutX="1131.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="Bi" />
+      <Button layoutX="1229.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #ff6600;" text="Kr" />
+      <Button layoutX="1229.0" layoutY="320.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #ff6600;" text="Xe" />
+      <Button layoutX="1229.0" layoutY="376.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #ff6600;" text="(118)" />
+      <Button layoutX="1229.0" layoutY="349.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #ff6600;" text="Rn" />
+      <Button fx:id="btn_AI" layoutX="935.0" layoutY="262.0" mnemonicParsing="false" onAction="#Add_AI" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: Pink;" text="AI" />
+      <Button fx:id="btn_B" layoutX="935.0" layoutY="235.0" mnemonicParsing="false" onAction="#add_B" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #00e6e6;" text="B" />
+      <Button layoutX="1033.0" layoutY="262.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #00e6e6;" text="Si" />
+      <Button layoutX="1033.0" layoutY="235.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #00e6e6;" text="C" />
+      <Button layoutX="1131.0" layoutY="262.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #00e6e6;" text="P" />
+      <Button layoutX="1131.0" layoutY="235.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #00e6e6;" text="N" />
+      <Button layoutX="1229.0" layoutY="206.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #ff6600;" text="He" />
+      <Button layoutX="1229.0" layoutY="262.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #ff6600;" text="Ar" />
+      <Button layoutX="1229.0" layoutY="235.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #ff6600;" text="Ne" />
+      <TextField fx:id="text_Equation" layoutX="49.0" layoutY="552.0" prefHeight="25.0" prefWidth="365.0" promptText="Equation Materials" />
+      <Button layoutX="505.0" layoutY="649.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" text="Undo" />
+      <Label layoutX="48.0" layoutY="26.0" prefHeight="17.0" prefWidth="20.0" style="-fx-background-color: DODGERBLUE;" />
+      <Label layoutX="83.0" layoutY="50.0" prefHeight="17.0" prefWidth="214.0" text="Alkali earth metals" />
+      <Label layoutX="49.0" layoutY="50.0" prefHeight="17.0" prefWidth="20.0" style="-fx-background-color: Green;" />
+      <Label layoutX="83.0" layoutY="74.0" prefHeight="17.0" prefWidth="214.0" text="transitional metals" />
+      <Label layoutX="49.0" layoutY="74.0" prefHeight="17.0" prefWidth="20.0" style="-fx-background-color: Yellow;" />
+      <Label layoutX="83.0" layoutY="97.0" prefHeight="17.0" prefWidth="214.0" text="others metals" />
+      <Label layoutX="49.0" layoutY="97.0" prefHeight="17.0" prefWidth="20.0" style="-fx-background-color: Pink;" />
+      <Label layoutX="83.0" layoutY="123.0" prefHeight="17.0" prefWidth="214.0" text="nonmetals" />
+      <Label layoutX="49.0" layoutY="123.0" prefHeight="17.0" prefWidth="20.0" style="-fx-background-color: #00e6e6;" />
+      <Label layoutX="83.0" layoutY="149.0" prefHeight="17.0" prefWidth="214.0" text="nobel gases" />
+      <Label layoutX="49.0" layoutY="149.0" prefHeight="17.0" prefWidth="20.0" style="-fx-background-color: #ff6600;" />
+      <Button fx:id="btn_HCL" layoutX="48.0" layoutY="423.0" mnemonicParsing="false" onAction="#Add_HCL" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #109687;" text="HCL" />
+      <Separator layoutX="48.0" layoutY="413.0" prefHeight="0.0" prefWidth="1262.0" />
+      <Button fx:id="btn_NaOH" layoutX="150.0" layoutY="424.0" mnemonicParsing="false" onAction="#Add_NaOH" prefHeight="20.0" prefWidth="80.0" style="-fx-background-color: #109687;" text="NaOH" />
+      <TextField fx:id="text_Equation_Result" layoutX="478.0" layoutY="552.0" prefHeight="25.0" prefWidth="214.0" promptText="Output" />
+      <Label layoutX="437.0" layoutY="552.0" prefHeight="25.0" prefWidth="20.0" text="=" />
+      <Button fx:id="btn_PLUS" layoutX="49.0" layoutY="476.0" mnemonicParsing="false" onAction="#METHOD_PLUS" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #;" text="Plus &quot; + &quot;" />
+      <TextField fx:id="EquationName" layoutX="182.0" layoutY="476.0" promptText="Equation  Name" />
+      <CheckBox fx:id="REqu" layoutX="357.0" layoutY="480.0" mnemonicParsing="false" text="Reverse Equation" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="429.0" prefWidth="524.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="graduation_p1.AboutController">
+   <children>
+      <TextArea layoutX="41.0" layoutY="60.0" prefHeight="355.0" prefWidth="443.0" text="education Version &#10;Sust Chemical Lab&#10;&#10;Build Information&#10;Version 1.0.0&#10;Date: 2017-11-6&#10;JavaFx Version&#10;&#10;Java&#10;1.8.0_111-b14, Oracle Corporation&#10;&#10;Operating System&#10;Windows 10, amd64, 10.0&#10;&#10;Copyright (c) 2017-2018 " />
+      <Label layoutX="41.0" layoutY="13.0" prefHeight="34.0" prefWidth="155.0" text="Sust Chemical Lab" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="440.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graduation_p1.ReportController">
+   <children>
+      <Label fx:id="Lable_new_btn" alignment="BASELINE_LEFT" layoutX="265.0" layoutY="170.0" onMouseClicked="#Load_Splash_Screen_WorkStation" prefHeight="25.0" prefWidth="138.0" text="Procurement Report" />
+      <Label fx:id="lable_Viw_Rep" layoutX="265.0" layoutY="235.0" onMouseClicked="#Load_Report_Screen" prefHeight="25.0" prefWidth="181.0" text="Quantity Materal Report" />
+      <ImageView fitHeight="47.0" fitWidth="55.0" layoutX="200.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Colored_TOOLS/page_edit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="55.0" layoutX="200.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Colored_TOOLS/page_edit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

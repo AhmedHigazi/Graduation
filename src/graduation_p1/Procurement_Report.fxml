@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" layoutX="1.0" prefHeight="606.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graduation_p1.Procurement_ReportController">
+   <children>
+      <Label layoutX="79.0" layoutY="37.0" prefHeight="32.0" prefWidth="207.0" text="Procurement Report">
+         <font>
+            <Font name="AGA Arabesque" size="22.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="662.0" layoutY="58.0" />
+      <ImageView fitHeight="400.0" fitWidth="364.0" layoutX="278.0" layoutY="134.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BackGround_Start_image/20170617224112!Sudan_University_for_Scince_&amp;_Technology.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tableview" layoutX="79.0" layoutY="91.0" opacity="0.61" prefHeight="467.0" prefWidth="759.0" />
+   </children>
+</AnchorPane>

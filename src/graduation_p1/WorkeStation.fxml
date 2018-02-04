@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graduation_p1.WorkeStationController">
+   <children>
+      <AnchorPane prefHeight="440.0" prefWidth="726.0">
+         <children>
+            <Label fx:id="Lable_new_btn" alignment="BASELINE_LEFT" layoutX="324.0" layoutY="146.0" onMouseClicked="#Load_Splash_Screen_WorkStation" prefHeight="25.0" prefWidth="78.0" text="New Project" />
+            <ImageView fitHeight="25.0" fitWidth="36.0" layoutX="293.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Colored_TOOLS/b_newtbl.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lable_Viw_Rep" layoutX="324.0" layoutY="192.0" onMouseClicked="#Load_Report_Screen" prefHeight="17.0" prefWidth="78.0" text="View Reports" />
+            <ImageView fitHeight="25.0" fitWidth="36.0" layoutX="293.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Colored_TOOLS/page_edit.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="Lable_admin" layoutX="324.0" layoutY="230.0" onMouseClicked="#Load_Admin" prefHeight="17.0" prefWidth="78.0" text="Admin" />
+            <ImageView fitHeight="25.0" fitWidth="36.0" layoutX="293.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Colored_TOOLS/b_usredit.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="294.0" layoutY="46.0" prefHeight="79.0" prefWidth="117.0" text="Chemical Lab" textAlignment="JUSTIFY" />
+            <Label fx:id="Labe_Safety" layoutX="324.0" layoutY="267.0" onMouseClicked="#Load_Labe_Safety" prefHeight="17.0" prefWidth="78.0" text="Labe Safety" />
+            <ImageView fitHeight="25.0" fitWidth="36.0" layoutX="293.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Colored_TOOLS/s_success.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="Labe_Safety1" layoutX="324.0" layoutY="302.0" onMouseClicked="#Load_Labe_Help" prefHeight="17.0" prefWidth="78.0" text="Help" />
+            <ImageView fitHeight="25.0" fitWidth="36.0" layoutX="293.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Colored_TOOLS/s_success.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="Labe_Safety11" layoutX="324.0" layoutY="339.0" onMouseClicked="#Load_Labe_About" prefHeight="17.0" prefWidth="78.0" text="About" />
+            <ImageView fitHeight="25.0" fitWidth="36.0" layoutX="293.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Colored_TOOLS/s_success.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="graduation_p1.HelpController">
+   <children>
+      <TextArea editable="false" layoutX="9.0" layoutY="15.0" prefHeight="362.0" prefWidth="582.0" text="New Project ------&gt; Drag and drop for s set of tools .&#10;                                 Start Video----&gt; To Creating a new Video about the lab.&#10;                                 Stop Video----&gt; To Stop Recording the Video.&#10;&#10;                                 AddNote------&gt; To adding a new note that is descriping the Equation deatils.&#10;                                Adding Equation---&gt; to entering a new equation for new lesson.&#10;                                Material Search-----&gt; to finding information about materials&#10;&#10;View Report-----&gt; &#10;                               Procurement_Report----&gt; display Procurement_Report&#10;                                Quantity_Materal_Report----------&gt;display Quantity_Materal_Report&#10;&#10;&#10;Admin------------&gt;&#10;                              AsstinFactor-----------&gt; Add asstintFactor&#10;                              Materials---------------&gt;Add Materials&#10;                              &#10;                               &#10;&#10;                       &#10;                                                          " />
+   </children>
+</AnchorPane>
